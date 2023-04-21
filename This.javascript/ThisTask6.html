@@ -1,0 +1,49 @@
+<!-- // Create an object called counter with a count property set to 0 
+// and two methods: increment and decrement. In each method, use the 
+// this keyword to access the count property and modify it. Add an event
+// listener to the window object for the keydown event. In the event 
+// listener, check if the key pressed is the up arrow or the down arrow.
+// If it is the up arrow, call the increment method on the counter object.
+// If it is the down arrow, call the decrement method on the counter
+// object. Log the current value of the count property to the console
+// after each method call. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>press Arrow key(up & down)</h1><h2 id="result">result</h2>
+    <script>
+        const counter ={
+            count:0,
+            increment:function(){
+               this.count++;
+            },
+            decrement:function(){
+               this.count--;
+            }
+        }
+        const up=document.getElementById('up');
+        // const down=document.getElementById('down');
+        document.addEventListener('keydown',(event)=>{
+            if (event.key==="ArrowUp") {
+                counter.increment()
+                console.log(counter.count);
+
+            }
+            else if(event.key==="ArrowDown") {
+                counter.decrement()
+                console.log(counter.count);
+            }
+            document.getElementById('result').innerText=counter.count;
+        });
+        // down.addEventListener('click',()=>{counter.decrement()
+        // console.log(counter.count);});
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 150px;
+    color: white;
+}
+.logo{
+    padding-left: 150px;
+    padding-top: 15px ;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 25px 30px;
+    border-bottom: 6px solid transparent;
+}
+li a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+li:first-child:hover{
+    opacity: 0.5;
+    background-color: blue;
+    border-bottom-color:rgb(108, 189, 216);
+}
+li:first-child a:hover{
+    color: rgb(1, 199, 199);
+}
+li:nth-child(2):hover{
+    opacity: 0.5;
+    background-color: green;
+    border-bottom-color:rgb(4, 175, 56);
+}
+li:nth-child(3):hover{
+    opacity: 0.5;
+    background-color: rgb(0, 193, 227);
+    border-bottom-color:rgb(200, 245, 66);
+}
+li:last-child:hover{
+    opacity: 0.5;
+    background-color: rgb(255, 124, 124);
+    border-bottom-color: rgb(247, 52, 52);
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #131546;
+}

@@ -1,0 +1,34 @@
+.i1{
+
+    background-image: url(pexels-caeli-team-37149601.jpg);
+    background-size: cover;
+    width: 525px;
+    height: 500px;
+}
+.i2{
+    background-image: url(pexels-caeli-team-37149601.jpg);
+    background-size: cover;
+    width: 525px;
+    height: 500px;
+}
+.main{
+    width: 1000px;
+    height: 1000px;
+}
+.second{ 
+    display:flex;
+    flex-direction: row-reverse;  
+    width: 1000px;
+    height: 500px;
+}
+.first{ 
+    display:flex;  
+    width: 1000px;
+    height: 500px;
+}
+.r1{
+    background-color: brown;
+}
+.r2{
+    background-color: brown;
+}

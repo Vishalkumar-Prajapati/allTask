@@ -1,0 +1,81 @@
+ES? Now & Future
+
+
+ES stands for ECMAScript. 
+ECMAScript is a scripting language specification standardized by Ecma International 
+in ECMA-262 and ISO/IEC 16262. 
+
+It was created to standardize JavaScript, so as to foster multiple independent implementations.
+ JavaScript has remained the best-known implementation of ECMAScript 
+ since the standard was first published,
+  with other well-known implementations including JScript and ActionScript.
+
+What is ES5 in javascript?
+
+ECMAScript 5 (ES5) is the fifth major revision to the ECMAScript standard. 
+It was standardized in 2009. 
+ES5 added several new features to the language, 
+most notably the ability to define properties on objects with getters and setters, a
+nd the ability to define properties that are non-enumerable. 
+ES5 also added several new methods to the Array object, including map, reduce, and filter. 
+ES5 also added a strict mode, which is a way to opt in to a restricted variant of JavaScript.
+
+
+ES version | Release date | Features
+---|---|----
+ES1 | 1997 | First edition of the ECMAScript standard
+ES2 | 1998 | Second edition of the ECMAScript standard
+ES3 | 1999 | Third edition of the ECMAScript standard
+ES4 | 2008 | Fourth edition of the ECMAScript standard
+ES5 | 2009 | Fifth edition of the ECMAScript standard
+ES6 | 2015 | Sixth edition of the ECMAScript standard
+ES7 | 2016 | Seventh edition of the ECMAScript standard
+ES8 | 2017 | Eighth edition of the ECMAScript standard
+ES9 | 2018 | Ninth edition of the ECMAScript standard
+ES10 | 2019 | Tenth edition of the ECMAScript standard
+ES11 | 2020 | Eleventh edition of the ECMAScript standard
+ES12 | 2021 | Twelfth edition of the ECMAScript standard
+ES13 | 2022 | Thirteenth edition of the ECMAScript standard
+
+information about ECMAScript
+ECMAScript (/ˈɛkməskrɪpt/; ES) is a JavaScript standard intended to ensure the interoperability of web pages across different browsers. 
+It is standardized by Ecma International in the document ECMA-262. ECMAScript. Paradigm. Multi-paradigm: prototype-based, functional, imperative.
+
+ECMAScript is a scripting language that is standardized by the European Computer Manufacturers Association (ECMA). 
+It is the standard scripting language for web browsers and is used to create dynamic, interactive web pages.
+
+Here are some key facts and information about ECMAScript:
+
+History: 
+ECMAScript was first introduced in 1997, and its latest version as of 2021 is ECMAScript 2021.
+
+Features: 
+ECMAScript is a high-level, interpreted language with support for 
+variables, functions, arrays, objects, loops, and conditional statements. 
+It also supports features like arrow functions, template literals, classes, modules, and more.
+
+Browser compatibility: 
+ECMAScript is supported by all major web browsers, including Chrome, Firefox, Safari, Edge, and Opera.
+
+Frameworks and libraries: 
+There are many frameworks and libraries that are built on top of ECMAScript, 
+such as Angular, React, Vue, and Ember.
+
+Transpilation: 
+Not all browsers support the latest version of ECMAScript, 
+so developers often use transpilation tools like Babel to 
+convert ECMAScript code into an older version that is compatible with more browsers.
+
+Specification: 
+The ECMAScript specification is maintained by the ECMA International standards organization,
+ which releases new versions of the standard on a yearly basis.
+
+Overall, ECMAScript is a powerful and versatile language that is essential for 
+building modern web applications. It provides developers with the tools and features they need to 
+create dynamic, interactive web pages that are fast, responsive, and user-friendly.
+
+
+why we should use ES6?
+It allows you to write less code and do more. ES6 introduces us to many great features 
+like arrow functions, template strings, class destruction, Modules… and more.
+
