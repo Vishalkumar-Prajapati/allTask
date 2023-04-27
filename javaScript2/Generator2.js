@@ -3,29 +3,36 @@
 // in practice.
 function delayedValue(time, value) {
     return new Promise((resolve /*, reject*/) => {
-      setTimeout(() => resolve(value), time);
+        setTimeout(() => resolve(value), time);
     });
-  }
-  
-  async function* generate() {
-    yield delayedValue(2000, 1);
-    yield delayedValue(100, 2);
-    yield delayedValue(500, 3);
-    yield delayedValue(250, 4);
-    yield delayedValue(125, 5);
-    yield delayedValue(50, 6);
+}
+
+async function* generate() {
+    yield await delayedValue(2000, 1);
+    yield await delayedValue(100, 2);
+    yield await delayedValue(500, 3);
+    yield await delayedValue(250, 4);
+    yield await delayedValue(125, 5);
+    yield await delayedValue(50, 6);
     console.log('All done!');
-  }
-  
-  async function main() {
-    for await (const value of generate()) {
-      console.log('value', value);
+    yield delayedValue(500,7);
+}
+
+async function main() {
+    // for await (const value of generate()) {
+    //     console.log('value', value);
+    // }
+    for (let i=0;i<6;i++) {
+        console.log('value', (await generate().next()).value);
     }
-  }
-  
-  main()
+}
+
+main()
     .catch((e) => console.error(e));
-function prepareDough() {
+
+
+
+    function prepareDough() {
     return new Promise((resolve, reject) => {
         console.log("Preparing dough...");
         setTimeout(() => {
@@ -81,7 +88,7 @@ console.log("Making pizza...");
 // }
 // name();
 
-async function* generate(){
+async function* generate() {
     yield await makePizza()
     yield await prepareDough()
     yield await addSauce()
@@ -91,15 +98,15 @@ async function* generate(){
 
 async function main() {
     // console.log(generate().next());
-        for await (const value of generate()) {
-          
-        }
+    for await (const value of generate()) {
+
+    }
     //    const obj=generate();
     //    obj.next()
     //    obj.next()
     //    obj.next()
     //    obj.next()
     //    obj.next()
-       
+
 }
 main();
